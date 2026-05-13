@@ -12,6 +12,8 @@ const classRoom = require("./routes/classRoutes");
 app.use("/api/students", student);
 app.use("/api/classrooms", classRoom);
 
+console.log("Hello");
+
 const port = process.env.PORT;
 
 app.listen(port, () => {
